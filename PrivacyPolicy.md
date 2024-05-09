@@ -14,7 +14,6 @@ The information we collect on or through our application may include:
 
 ### Automatically Collected Information
 - **Location Information**: We require access to your device's background location to notify you when you are near an arena. We do not store, upload, or use your location information for any other purpose.
-- **Physical Activity**: Optional, if granted, we use this permission to optimize battery usage when the app is active.
 
 ## Use of Information
 1. The application allows the person browsing and/or watching and/or using another way to get information about active shopping centers.
