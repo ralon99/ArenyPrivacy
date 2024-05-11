@@ -4,21 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>צור קשר עם התמיכה</title>
+    <style>
+        body {
+            background-color: #D8D8D8;
+            font-family: Arial, sans-serif;
+            color: #2E2D2D;
+        }
+        header, footer {
+            background-color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+        }
+        form {
+            background-color: #FFFFFF;
+            width: 80%; /* Adjusted to a relative width */
+            max-width: 500px; /* Added max width to constrain the form size */
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 70%;
+            padding: 8px;
+            margin: 0 auto 20px auto;
+            display: block;
+            border: 2px solid #00AAA6;
+        }
+        button {
+            background-color: #00AAA6;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darken(#00AAA6, 10%);
+        }
+    </style>
 </head>
 <body>
-    <h1>צור קשר עם התמיכה</h1>
+    <header style="display: flex; align-items: center; justify-content: center;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/areny-c1132.appspot.com/o/administrative%2FLOGO-ENG2.png?alt=media&token=b1b00b5b-e529-4769-867d-1f25fbe3e40f" 
+        alt="Company Logo" style="max-height: 50px; margin-left: 20px;">
+        <h1>צור קשר עם התמיכה</h1>
+    </header>
+
     <form action="https://formspree.io/f/xeqyvnna" method="POST">
         <label for="name">שם:</label>
         <input type="text" id="name" name="name" required>
-        <br><br>
+        
         <label for="email">כתובת אימייל:</label>
         <input type="email" id="email" name="email" required>
-        <br><br>
+        
         <label for="message">הודעה:</label>
         <textarea id="message" name="message" required></textarea>
-        <br><br>
+        
         <button type="submit">שלח הודעה</button>
     </form>
+
+    <footer>
+        © 2024 Areny Coupons. All rights reserved
+    </footer>
 
     <script>
         const form = document.getElementsByTagName('form')[0];
