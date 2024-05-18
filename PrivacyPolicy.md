@@ -40,6 +40,6 @@ The information we collect on or through our application may include:
 It is our policy to post any changes we make to our privacy policy on this page. If we make material changes to how we treat our users' personal information, we will notify you through a notice on the app's home screen.
 
 ## Contact Information
-To ask questions or comment about this privacy policy and our privacy practices, contact us at: alon.roth@outlook.com.
+To ask questions or comment about this privacy policy and our privacy practices, contact us at: areny.coupon@gmail.com.
 
-_Last updated: 09.05.2024_
+_Last updated: 18.05.2024_
